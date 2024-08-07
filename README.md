@@ -104,7 +104,7 @@ module.exports = pool;
 ```
 ### Step 6: Start the Backend Server
 ```sh
-npm start
+nodemon index
 ```
 ## Frontend Setup
 ### Step 1: Install Frontend Dependencies
@@ -117,18 +117,18 @@ npm install
 npm run dev
 ```
 ## Tools Used
-- Backend: Express.js, PostgreSQL, Bcrypt, JWT, Multer
+- Backend: Express.js, PostgreSQL, Bcrypt, JWT, Multer, Nodemon
 - Frontend: React, Vite, React Router, React Toastify, Tailwind CSS
 ### Running the Application
 1. Ensure the backend server is running:
 ```sh
-cd backend
-npm start
+cd backend 
+nodemon index
 ```
 ###
 2. Ensure the frontend server is running:
 ```sh
-cd frontend
+cd client
 npm run dev
 ```
 3. Open your browser and navigate to http://localhost:5173/
