@@ -122,7 +122,7 @@ npm run dev
 ### Running the Application
 1. Ensure the backend server is running:
 ```sh
-cd backend 
+cd server
 nodemon index
 ```
 ###
