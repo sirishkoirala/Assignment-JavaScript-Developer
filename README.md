@@ -18,7 +18,7 @@ git clone "https://github.com/sirishkoirala/Assignment-JavaScript-Developer.git"
 ### Step 2: Install Backend Dependencies
 
 ```sh
-cd backend
+cd server
 npm install
 ```
 
@@ -109,7 +109,7 @@ npm start
 ## Frontend Setup
 ### Step 1: Install Frontend Dependencies
 ```sh
-cd ../frontend
+cd client
 npm install
 ```
 ### Step 2: Start the Frontend Server
