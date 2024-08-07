@@ -12,8 +12,7 @@ Ensure you have the following installed on your system:
 ### Step 1: Clone the Repository
 
 ```sh
-git clone <repository-url>
-cd <repository-directory>
+git clone "https://github.com/sirishkoirala/Assignment-JavaScript-Developer.git"
 ```
 
 ### Step 2: Install Backend Dependencies
