@@ -9,7 +9,7 @@ const propertyRoutes = require("./routes/propertyRoutes");
 // middleware
 app.use(express.json());
 app.use(cors());
-const uploadsPath = path.join('E:', 'Project/Assignment0/server/uploads');
+const uploadsPath = path.join(__dirname, 'uploads');
 app.use('/uploads', express.static(uploadsPath));
 
 
